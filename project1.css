@@ -10,19 +10,30 @@
     background-repeat: no-repeat;
     background-size: cover;
     box-sizing: content-box;
-    
 }
+.alata-regular {
+  font-family: "Alata", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+    
+
 .topdiv
 {
     width: 100%;
     height: 90vh;
-    background-image:url(./6.jpg);
+    background-image: url(./image-hero.jpg);
     background-size: cover;
 }
 .head{
-     font-family: "Alata", sans-serif;
+
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Dancing+Script:wght@400..700&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+ /* font-family: "Dancing Script", cursive; */
+  font-family: sans-serif;
+  font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
+
     height: 120px;
     width: 300px;
     color: white;
@@ -63,7 +74,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    color: white;
+    color: rgb(15, 14, 14);
     padding: 40px;
     box-sizing: border-box;
 }
@@ -82,13 +93,14 @@ button{
     display: grid;
     grid-template-columns: repeat(4,1fr);
 }
+
 .card{
     width: 300px;
     height: 400px;
     border: 1px solid black;
     display: grid;
     margin: 20px;
-    background-image: url(./2.jpg);
+    background-image: url(./image-deep-earth.jpg);
     background-size: cover;
     color: white;
     align-items: flex-end;
@@ -100,7 +112,7 @@ button{
     border: 1px solid black;
     display: grid;
     margin: 20px;
-    background-image: url(./8.jpg);
+    background-image: url(./image-night-arcade.jpg);
     background-size: cover;
     color: white;
     align-items: flex-end;
@@ -112,7 +124,7 @@ button{
     border: 1px solid black;
     display: grid;
     margin: 20px;
-    background-image: url(./10.jpg);
+    background-image: url(./image-soccer-team.jpg);
     background-size: cover;
     color: white;
     align-items: flex-end;
@@ -124,7 +136,7 @@ button{
     border: 1px solid black;
     display: grid;
     margin: 20px;
-    background-image: url(./5.jpg);
+    background-image: url(./image-grid.jpg);
     background-size: cover;
     color: white;
     align-items: flex-end;
@@ -136,7 +148,7 @@ button{
     border: 1px solid black;
     display: grid;
     margin: 20px;
-    background-image: url(./4.jpg);
+    background-image: url(./image-from-above.jpg);
     background-size: cover;
     color: white;
     align-items: flex-end;
@@ -148,7 +160,7 @@ button{
     border: 1px solid black;
     display: grid;
     margin: 20px;
-    background-image: url(./9.jpg);
+    background-image: url(./image-pocket-borealis.jpg);
     background-size: cover;
     color: white;
     align-items: flex-end;
@@ -160,7 +172,7 @@ button{
     border: 1px solid black;
     display: grid;
     margin: 20px;
-    background-image: url(./1.jpg);
+    background-image: url(./image-curiosity.jpg);
     background-size: cover;
     color: white;
     align-items: flex-end;
@@ -172,9 +184,120 @@ button{
     border: 1px solid black;
     display: grid;
     margin: 20px;
-    background-image: url(./3.jpg);
+    background-image: url(./image-fisheye.jpg);
     background-size: cover;
     color: white;
     align-items: flex-end;
 
+}
+.h{
+   width: 50px;
+  height: 60px;
+    align-items: center;
+    padding: 1.5px 1.5px 0px 30px ;
+    @import url('https://fonts.googleapis.com/css2?family=Alata&family=Dancing+Script:wght@400..700&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+    /* font-family: "Dancing Script", cursive; */
+     font-family: sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 15px;
+}
+
+.h1{
+
+    width: 100px;
+    height: 60px;
+    align-items: center;
+    padding: 1.5px 1.5px 0px 30px ;
+    @import url('https://fonts.googleapis.com/css2?family=Alata&family=Dancing+Script:wght@400..700&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+    /* font-family: "Dancing Script", cursive; */
+     font-family: sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.h2{
+
+    width: 100px;
+    height: 60px;
+    align-items: center;
+    padding: 1.5px 1.5px 0px 30px ;
+    @import url('https://fonts.googleapis.com/css2?family=Alata&family=Dancing+Script:wght@400..700&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+    /* font-family: "Dancing Script", cursive; */
+     font-family: sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.h3{
+
+    width: 40px;
+    height: 60px;
+    align-items: center;
+    padding: 1.5px 1.5px 0px 30px ;
+    @import url('https://fonts.googleapis.com/css2?family=Alata&family=Dancing+Script:wght@400..700&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+    /* font-family: "Dancing Script", cursive; */
+     font-family: sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.h4{
+
+    width: 100px;
+    height: 60px;
+    align-items: center;
+    padding: 1.5px 1.5px 0px 30px ;
+    @import url('https://fonts.googleapis.com/css2?family=Alata&family=Dancing+Script:wght@400..700&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+    /* font-family: "Dancing Script", cursive; */
+     font-family: sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.h5{
+
+    width: 100px;
+    height: 60px;
+    align-items: center;
+    padding: 1.5px 1.5px 0px 30px ;
+    @import url('https://fonts.googleapis.com/css2?family=Alata&family=Dancing+Script:wght@400..700&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+    /* font-family: "Dancing Script", cursive; */
+     font-family: sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.h6{
+
+    width: 100px;
+    height: 60px;
+    align-items: center;
+    padding: 1.5px 1.5px 0px 30px ;
+    @import url('https://fonts.googleapis.com/css2?family=Alata&family=Dancing+Script:wght@400..700&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+    /* font-family: "Dancing Script", cursive; */
+     font-family: sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.h7{
+
+    width: 100px;
+    height: 60px;
+    align-items: center;
+    padding: 1.5px 1.5px 0px 30px ;
+    @import url('https://fonts.googleapis.com/css2?family=Alata&family=Dancing+Script:wght@400..700&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+    /* font-family: "Dancing Script", cursive; */
+    font-family: sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
 }
